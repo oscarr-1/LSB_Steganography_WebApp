@@ -13,6 +13,12 @@
         
         <h1>Audio Steganography</h1>
         <h2>Hide Your Own Message</h2>
+        <p>
+            Please enter a message and an audio file in .wav format. The message will be converted into binary
+            and hidden within the least significant bits of the audio frames. A new WAV audio file holding the message 
+            will be created and available for download. If you compare the original and modified audio, you
+            will not be able to tell the difference between the two.
+        </p>
         <form id="uploadForm" enctype="multipart/form-data">
             <label for="msg">Secret message: </label>
             <input type="text" id="msg" name="message"><br>
@@ -26,6 +32,10 @@
         <div id="result"></div>
 
         <h2>Reveal A Hidden Message</h2>
+        <p>
+            Please upload an audio file (.wav) that has a hidden message. This will extract messages hidden within
+            WAV files via the least signifcant bit technique.
+        </p>
         <form id="revealForm" enctype="multipart/form-data">
             <label for="audio">Choose an audio file</label>
             <input type="file" id="revealAudioUpload" name="audio" accept="audio/*">
