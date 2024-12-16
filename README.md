@@ -39,10 +39,10 @@ This project is a Flask-based web application that utilizes **Pillow (PIL)** for
 ### **2. Steps**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/oscarr-1/lsb-steganography-webapp.git
+   git clone https://github.com/oscarr-1/steganography_project.git
 2. Navigate to the project directory:
    ```bash
-   cd lsb-steganography-webapp
+   cd steganography_project
 3. Create and activate a virtual environment (optional):
    ```bash
    python -m venv venv
