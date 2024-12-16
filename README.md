@@ -50,7 +50,7 @@ This project is a Flask-based web application that utilizes **Pillow (PIL)** for
    venv\Scripts\activate       # For Windows
 4. Install dependencies:
    ```bash
-   pip install flask pillow numpy
+   pip install -r requirements.txt
 5. Run the application:
    ```bash
    python run.py
