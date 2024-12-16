@@ -35,6 +35,7 @@ This project is a Flask-based web application that utilizes **Pillow (PIL)** for
 - Flask
 - Pillow (PIL)
 - NumPy
+- Werkzeug
 
 ### **2. Steps**
 1. Clone the repository:
@@ -80,6 +81,7 @@ This project is a Flask-based web application that utilizes **Pillow (PIL)** for
 - Flask: a micro web framework for Python
 - Pillow (PIL): for image processing
 - NumPy: for numerical operations
+- Werkzeug
 Install the requirements with:
 ```bash
 pip install flask pillow numpy
